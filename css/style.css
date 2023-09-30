@@ -1,0 +1,147 @@
+body{
+    background-color: #9c9c9c;
+    display: flex;
+    flex-direction: column;
+}
+.banner {
+    background-color: rgb(0, 102, 128);
+    padding: 25px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+
+.h1 {
+    color: white;
+    text-align: center;
+}
+
+/*.custom-nav{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+}*/
+
+.custom-nav {
+    background-color: #333;
+    width: 200px;
+    height: 100%;
+    top: 0; /* Alinea el menú en la parte superior */
+    left: 0; /* Alinea el menú en la parte izquierda */
+    padding: 20px; /* Espacio interior del menú */
+    margin-top: 105px;
+    position: fixed;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+  }
+
+  .custom-nav a:hover {
+    background-color: rgb(0, 102, 128); /* Color de fondo al pasar el mouse por encima */
+    color: white;
+  }
+
+.a {
+    display: block; /* Convierte los enlaces en bloques para que ocupen todo el ancho */
+    margin-bottom: 100px; /* Espacio entre los enlaces */
+    padding: 14px;
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    color: white; /* Color del texto en los enlaces */
+}
+
+.flex-container{
+  background-color: #9c9c9c;
+  border-radius: 3rem;
+  border: 0.6rem solid var(--green);
+  height: 400px;
+  margin: 100px 300px auto;
+  padding: 2rem;
+  width: 70%;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  
+}
+.flex-item {
+  border-radius: 2rem;
+  border: 0.6rem solid var(--green);
+  height: 500px;
+  width: 100%;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: rgb(0, 102, 128);
+  flex-grow: 1;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.flex-container2{
+  background-color: #9c9c9c;
+  border: 0.6rem solid var(--green);
+  height: 400px;
+  margin: 0 300px auto;
+  padding: 0.5rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  flex: 1;
+  flex-wrap: wrap;
+  
+}
+.flex-item2{
+  border-radius: 0.5rem;
+  border: 0.6rem solid var(--green);
+  height: 150px;
+  width: 100%;
+  margin: 1rem;
+  background-color: #da4343;
+  flex: 1;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(0, 102, 128);
+  color: white;
+  text-align: center;
+  padding: 0.5px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.flex-container-text{
+  background-color: #9c9c9c;
+  margin-left: 100px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 50%;
+  display: flex;
+  flex: 1;
+}
+
+.h2-text {
+  clear: both;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.resaltar {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Aplica una sombra */
+  transition: box-shadow 0.3s ease; /* Agrega una transición suave */
+}
+
+.resaltar:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Cambia la sombra al pasar el mouse por encima */
+}
