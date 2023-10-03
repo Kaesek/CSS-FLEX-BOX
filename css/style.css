@@ -27,16 +27,17 @@ body{
 
 .custom-nav {
     background-color: #333;
-    width: 200px;
+    width: 15vw;
     height: 100%;
-    top: 0; /* Alinea el menú en la parte superior */
-    left: 0; /* Alinea el menú en la parte izquierda */
-    padding: 20px; /* Espacio interior del menú */
-    margin-top: 105px;
+    margin-top: 11vh;
     position: fixed;
     color: white;
     text-decoration: none;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .custom-nav a:hover {
